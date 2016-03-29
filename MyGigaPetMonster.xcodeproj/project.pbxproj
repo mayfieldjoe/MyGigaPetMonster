@@ -15,6 +15,7 @@
 		CE4E0A481CA9A93900425B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4E0A461CA9A93900425B9F /* LaunchScreen.storyboard */; };
 		CE4E0A531CA9A93900425B9F /* MyGigaPetMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E0A521CA9A93900425B9F /* MyGigaPetMonsterTests.swift */; };
 		CE4E0A5E1CA9A93900425B9F /* MyGigaPetMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E0A5D1CA9A93900425B9F /* MyGigaPetMonsterUITests.swift */; };
+		CEBA96081CAAEC4B00F1686E /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA96071CAAEC4B00F1686E /* DragImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE4E0A591CA9A93900425B9F /* MyGigaPetMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGigaPetMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4E0A5D1CA9A93900425B9F /* MyGigaPetMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGigaPetMonsterUITests.swift; sourceTree = "<group>"; };
 		CE4E0A5F1CA9A93A00425B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBA96071CAAEC4B00F1686E /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CE4E0A461CA9A93900425B9F /* LaunchScreen.storyboard */,
 				CE4E0A491CA9A93900425B9F /* Info.plist */,
 				CE4E0A411CA9A93900425B9F /* MyGigaPetMonster.xcdatamodeld */,
+				CEBA96071CAAEC4B00F1686E /* DragImg.swift */,
 			);
 			path = MyGigaPetMonster;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				CE4E0A431CA9A93900425B9F /* MyGigaPetMonster.xcdatamodeld in Sources */,
 				CE4E0A3D1CA9A93900425B9F /* ViewController.swift in Sources */,
 				CE4E0A3B1CA9A93900425B9F /* AppDelegate.swift in Sources */,
+				CEBA96081CAAEC4B00F1686E /* DragImg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +490,7 @@
 				CE4E0A641CA9A93A00425B9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE4E0A651CA9A93A00425B9F /* Build configuration list for PBXNativeTarget "MyGigaPetMonsterTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				CE4E0A671CA9A93A00425B9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE4E0A681CA9A93A00425B9F /* Build configuration list for PBXNativeTarget "MyGigaPetMonsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				CE4E0A6A1CA9A93A00425B9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
